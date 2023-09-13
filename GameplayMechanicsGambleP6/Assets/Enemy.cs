@@ -21,4 +21,5 @@ public class Enemy : MonoBehaviour
 
         enemyRb.AddForce(lookDirection * speed);
     }
+    
 }
