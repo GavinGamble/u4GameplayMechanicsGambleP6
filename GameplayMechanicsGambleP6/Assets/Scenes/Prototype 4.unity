@@ -526,8 +526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f259e5e5ede054ba99ac058e683c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  hasPowerUp: 0
+  powerupIndicator: {fileID: 2917733127712216684, guid: 32126d0ff6ac279408b7072b88fcff58, type: 3}
+  projectilePrefab: {fileID: 1554991516236096194, guid: 5b18d7965c2c46c48b6b80d4b53aa7ef, type: 3}
+  speed: 8
+  hasPowerup: 0
 --- !u!54 &1523937595
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -536,7 +538,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523937593}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 4
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -636,7 +638,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -686,6 +688,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1067137827117314431, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
+  strongEnemyPrefab: {fileID: 1067137827117314431, guid: 267b383f6cbe25141aed8ff425986bb3, type: 3}
+  powerupPrefabs: []
+  enemies: []
+  enemyCount: 0
+  waveNumber: 1
 --- !u!1 &1935114984
 GameObject:
   m_ObjectHideFlags: 0
