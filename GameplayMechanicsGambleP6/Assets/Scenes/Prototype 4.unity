@@ -543,6 +543,19 @@ MonoBehaviour:
   speed: 5
   hasPowerup: 0
   powerupIndicator: {fileID: 1554991516236096194, guid: 5b18d7965c2c46c48b6b80d4b53aa7ef, type: 3}
+--- !u!114 &1838317500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838317492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e5de7fde9aa041a33d567b5ac7d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &1847079242
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +682,7 @@ PrefabInstance:
     - target: {fileID: 3666585033638098656, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e25a021ede99bd34fa2c0ab39a07e571, type: 2}
+      objectReference: {fileID: 2100000, guid: ae4ff49dfb4c229488b12d99e4b0e3fc, type: 2}
     m_RemovedComponents:
     - {fileID: 5531132933078483515, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
     m_RemovedGameObjects: []
@@ -678,6 +691,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1067137827117314431, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1838317499}
+    - targetCorrespondingSourceObject: {fileID: 1067137827117314431, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1838317500}
   m_SourcePrefab: {fileID: 100100000, guid: 58b7e3aaed2d4414b82ce32d1d057738, type: 3}
 --- !u!1 &1935114984
 GameObject:
